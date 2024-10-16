@@ -2,8 +2,8 @@ package iso
 
 import (
 	"fmt"
-	c "mobilityid/common"
-	"mobilityid/contractid"
+	c "go-mobilityid/common"
+	"go-mobilityid/contractid"
 	"regexp"
 	"strings"
 )

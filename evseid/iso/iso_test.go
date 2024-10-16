@@ -1,9 +1,10 @@
 package iso
 
 import (
-	"github.com/stretchr/testify/assert"
-	"mobilityid/evseid"
+	"go-mobilityid/evseid"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 var (

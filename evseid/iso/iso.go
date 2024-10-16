@@ -2,11 +2,12 @@ package iso
 
 import (
 	"fmt"
-	v "github.com/go-ozzo/ozzo-validation"
-	c "mobilityid/common"
-	"mobilityid/evseid"
+	c "go-mobilityid/common"
+	"go-mobilityid/evseid"
 	"regexp"
 	"strings"
+
+	v "github.com/go-ozzo/ozzo-validation"
 )
 
 var regex = regexp.MustCompile(fmt.Sprintf("^(?P<country>%v)(?:\\*?)(?P<operator>%v)(?:\\*?)%v(?P<outlet>%v)$", c.CountryCodeRegex, c.PartyCodeRegex, "[Ee]", "([A-Za-z0-9\\*]{1,31})"))

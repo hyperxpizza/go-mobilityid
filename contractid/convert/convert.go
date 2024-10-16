@@ -3,9 +3,9 @@ package convert
 import (
 	"errors"
 	"fmt"
-	"mobilityid/contractid/din"
-	"mobilityid/contractid/emi3"
-	"mobilityid/contractid/iso"
+	"go-mobilityid/contractid/din"
+	"go-mobilityid/contractid/emi3"
+	"go-mobilityid/contractid/iso"
 	"strings"
 )
 

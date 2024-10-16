@@ -2,9 +2,10 @@ package contractid
 
 import (
 	"fmt"
-	v "github.com/go-ozzo/ozzo-validation"
-	c "mobilityid/common"
+	c "go-mobilityid/common"
 	"strings"
+
+	v "github.com/go-ozzo/ozzo-validation"
 )
 
 // Stringer provides functions to get string representations of contract IDs

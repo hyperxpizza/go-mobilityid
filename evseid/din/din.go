@@ -2,12 +2,13 @@ package din
 
 import (
 	"fmt"
-	v "github.com/go-ozzo/ozzo-validation"
-	c "mobilityid/common"
-	"mobilityid/evseid"
+	c "go-mobilityid/common"
+	"go-mobilityid/evseid"
 	"regexp"
 	"strings"
 	"unicode"
+
+	v "github.com/go-ozzo/ozzo-validation"
 )
 
 var regex = regexp.MustCompile(fmt.Sprintf("^(?P<country>%v)\\*(?P<operator>%v)\\*(?P<outlet>%v)$", "\\+?([0-9]{1,3})", "([0-9]{3,6})", "([0-9\\*]{1,32})"))

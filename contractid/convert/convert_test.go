@@ -1,10 +1,11 @@
 package convert
 
 import (
-	"github.com/stretchr/testify/assert"
-	"mobilityid/contractid/din"
-	"mobilityid/contractid/emi3"
+	"go-mobilityid/contractid/din"
+	"go-mobilityid/contractid/emi3"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestDinToEmi3(t *testing.T) {

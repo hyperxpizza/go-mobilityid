@@ -1,9 +1,10 @@
 package iso
 
 import (
-	"github.com/stretchr/testify/assert"
-	"mobilityid/contractid"
+	"go-mobilityid/contractid"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 var (

@@ -2,9 +2,9 @@ package emi3
 
 import (
 	"fmt"
-	c "mobilityid/common"
-	"mobilityid/contractid"
-	"mobilityid/contractid/iso"
+	c "go-mobilityid/common"
+	"go-mobilityid/contractid"
+	"go-mobilityid/contractid/iso"
 	"regexp"
 	"strings"
 )
