@@ -2,8 +2,9 @@ package contractid
 
 import (
 	"fmt"
-	c "go-mobilityid/common"
 	"strings"
+
+	c "github.com/hyperxpizza/go-mobilityid/common"
 
 	v "github.com/go-ozzo/ozzo-validation"
 )

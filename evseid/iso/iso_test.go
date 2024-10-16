@@ -1,9 +1,9 @@
 package iso
 
 import (
-	"go-mobilityid/evseid"
 	"testing"
 
+	"github.com/hyperxpizza/go-mobilityid/evseid"
 	"github.com/stretchr/testify/assert"
 )
 

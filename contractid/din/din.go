@@ -2,10 +2,11 @@ package din
 
 import (
 	"fmt"
-	c "go-mobilityid/common"
-	"go-mobilityid/contractid"
 	"regexp"
 	"strings"
+
+	c "github.com/hyperxpizza/go-mobilityid/common"
+	"github.com/hyperxpizza/go-mobilityid/contractid"
 )
 
 const instanceMaxLength = 6

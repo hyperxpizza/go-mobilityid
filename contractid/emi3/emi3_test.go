@@ -1,8 +1,9 @@
 package emi3
 
 import (
-	"go-mobilityid/contractid"
 	"testing"
+
+	"github.com/hyperxpizza/go-mobilityid/contractid"
 
 	"github.com/stretchr/testify/assert"
 )

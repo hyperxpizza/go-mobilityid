@@ -2,11 +2,12 @@ package din
 
 import (
 	"fmt"
-	c "go-mobilityid/common"
-	"go-mobilityid/evseid"
 	"regexp"
 	"strings"
 	"unicode"
+
+	c "github.com/hyperxpizza/go-mobilityid/common"
+	"github.com/hyperxpizza/go-mobilityid/evseid"
 
 	v "github.com/go-ozzo/ozzo-validation"
 )

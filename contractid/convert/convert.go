@@ -3,10 +3,11 @@ package convert
 import (
 	"errors"
 	"fmt"
-	"go-mobilityid/contractid/din"
-	"go-mobilityid/contractid/emi3"
-	"go-mobilityid/contractid/iso"
 	"strings"
+
+	"github.com/hyperxpizza/go-mobilityid/contractid/din"
+	"github.com/hyperxpizza/go-mobilityid/contractid/emi3"
+	"github.com/hyperxpizza/go-mobilityid/contractid/iso"
 )
 
 // DinToEmi3 converts a DIN contract ID to its EMI3 equivalent

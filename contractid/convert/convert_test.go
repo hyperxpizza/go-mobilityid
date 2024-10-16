@@ -1,9 +1,10 @@
 package convert
 
 import (
-	"go-mobilityid/contractid/din"
-	"go-mobilityid/contractid/emi3"
 	"testing"
+
+	"github.com/hyperxpizza/go-mobilityid/contractid/din"
+	"github.com/hyperxpizza/go-mobilityid/contractid/emi3"
 
 	"github.com/stretchr/testify/assert"
 )

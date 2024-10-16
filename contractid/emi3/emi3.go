@@ -2,11 +2,12 @@ package emi3
 
 import (
 	"fmt"
-	c "go-mobilityid/common"
-	"go-mobilityid/contractid"
-	"go-mobilityid/contractid/iso"
 	"regexp"
 	"strings"
+
+	c "github.com/hyperxpizza/go-mobilityid/common"
+	"github.com/hyperxpizza/go-mobilityid/contractid"
+	"github.com/hyperxpizza/go-mobilityid/contractid/iso"
 )
 
 const instanceMaxLength = 8

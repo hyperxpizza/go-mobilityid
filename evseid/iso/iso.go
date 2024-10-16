@@ -2,10 +2,12 @@ package iso
 
 import (
 	"fmt"
-	c "go-mobilityid/common"
-	"go-mobilityid/evseid"
 	"regexp"
 	"strings"
+
+	"github.com/hyperxpizza/go-mobilityid/evseid"
+
+	c "github.com/hyperxpizza/go-mobilityid/common"
 
 	v "github.com/go-ozzo/ozzo-validation"
 )
